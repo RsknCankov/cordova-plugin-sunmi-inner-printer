@@ -6,6 +6,14 @@ Plugin based on https://github.com/labibramadhan/cordova-sunmi-inner-printer
 
 ### Changes as follows:
 
+#### Changelog May 27, 2023
+
+1. Add `framework directive` into `plugin.xml` to automatically add `"com.sunmi:printerlibrary:latest.release"` into gradle.
+
+2. Add android:exported in Manifest to support Android 12
+
+3. Update version to `1.1.2`
+
 #### Changelog Aug 11, 2019
 
 1. Add `framework directive` into `plugin.xml` to automatically add `"com.sunmi:sunmiui:latest.release"` into gradle.
